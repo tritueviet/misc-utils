@@ -1,4 +1,4 @@
-#summary String and message encodings in Java
+#summary String and message encodings in Java.
 
 =Encodings=
 
