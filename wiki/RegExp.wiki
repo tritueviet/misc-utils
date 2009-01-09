@@ -4,5 +4,5 @@
 
 {{{
     // Simplified email pattern:
-    final String emailRegexp = "(\\S+)@(\\S+)\\.(\\S+)";
+    final String emailRegexp = "\\S+@\\S+\\.\\S+";
 }}}
