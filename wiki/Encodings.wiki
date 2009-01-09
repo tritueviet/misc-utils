@@ -12,5 +12,5 @@ This code snippet converts a string:
     final String isoMessage  = new String( utf8Message.getBytes( "UTF-8" ), "ISO-8859-1" );
 }}}
 
-==Read from and write to a file using a specific encoding==
+==Reading from and writing to a file or stream using a specific encoding==
 This is supported by default in the standard library. We can simply use the `java.io.InputStreamReader` and `java.io.OutputStreamWriter` classes which can take the character encoding as their constructor parameters.
