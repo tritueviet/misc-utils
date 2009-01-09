@@ -1,0 +1,8 @@
+#summary Frequently used handy regular expressions.
+
+= Regular Expressions =
+
+{{{
+    // Simplified email pattern:
+    final String emailRegexp = "(\\S+)@(\\S+)\\.(\\S+)";
+}}}
