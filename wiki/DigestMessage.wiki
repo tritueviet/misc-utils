@@ -1,4 +1,4 @@
-#summary Howto digest messages
+#summary Howto digest messages.
 
 =Howto digest messages in Java=
 
