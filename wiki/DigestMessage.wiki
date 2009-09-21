@@ -21,7 +21,7 @@
     // Convert it to hex string:
     final StringBuilder sb = new StringBuilder( messageBytes.length * 2 );
     for ( int i = 0; i < messageBytes.length; i++ )
-        sb.append( Integer.toHexString( ( messageBytes[ i ] & 0xff ) >> 4 ).append( Integer.toHexString( messageBytes[ i ] & 0x0f );
+        sb.append( Integer.toHexString( ( messageBytes[ i ] & 0xff ) >> 4 ) ).append( Integer.toHexString( messageBytes[ i ] & 0x0f ) );
     
     // Here sb contains the hex string of the digest of the message
 }}}
