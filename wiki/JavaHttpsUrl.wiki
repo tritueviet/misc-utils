@@ -33,7 +33,7 @@ try {
     final SSLContext sslContext = SSLContext.getInstance( "SSL" );
     sslContext.init( null, trustAllCerts, new java.security.SecureRandom() );
     // Create an ssl socket factory with our all-trusting manager
-    final SSLSocketFactory sslSocketFactorysslSocketFactory = sslContext.getSocketFactory();
+    final SSLSocketFactory sslSocketFactory = sslContext.getSocketFactory();
     
     
     // All set up, we can get a resource through https now:
