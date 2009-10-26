@@ -14,6 +14,7 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 *Here is an easy solution but be warned!* The key and certificate system was not created for you to bypass it. But if you just want it to work the easy way, here is how you can do it:
 
 {{{
+// Imports: javax.net.ssl.TrustManager, javax.net.ssl.X509TrustManager
 try {
     // Create a trust manager that does not validate certificate chains
     final TrustManager[] trustAllCerts = new TrustManager[] { new X509TrustManager() {
