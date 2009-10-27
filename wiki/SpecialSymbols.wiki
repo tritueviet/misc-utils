@@ -3,4 +3,5 @@
 =Frequent Special Symbols=
 
 || *Symbol name* || *Symbol* || *Code* ||
-||Copyright symbol||©||ALT + 0169||
+||Copyright||©||ALT + 0169||
+||Trademark||™||ALT + 0153||
