@@ -2,5 +2,5 @@
 
 =Frequent Special Symbols=
 
-||*Symbol name*||*Symbol*||*Code*||
+|| *Symbol name* || *Symbol* || *Code* ||
 ||Copyright symbol||©||ALT + 0169||
