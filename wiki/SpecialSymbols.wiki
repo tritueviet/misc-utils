@@ -1,0 +1,6 @@
+#summary How to write special symbols
+
+=Frequent Special Symbols=
+
+||*Symbol name*||*Symbol*||*Code*||
+||Copyright symbol||©||ALT + 0169||
