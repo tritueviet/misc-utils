@@ -11,7 +11,8 @@
 ||Copyright||©||ALT + 0169||&copy;||
 ||Registered||®||ALT + 0174||&reg;||
 ||Degree||°||ALT + 0176||&deg;||
+||Plus minus||±||ALT + 0177||&plusmn;||
 ||Micro||µ||ALT + 0181||&micro;||
 ||Paragraph||¶||ALT + 0182||&para;||
 ||Multiplication||×||ALT + 0215||&times;||
-||Sum ||∑|| ||&sum;||
+||Sum ||∑||||&sum;||
