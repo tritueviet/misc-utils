@@ -2,7 +2,8 @@
 
 =Frequent Special Symbols=
 
-|| *Symbol name* || *Symbol* || *Code* ||
-||Trademark||™||ALT + 0153||
-||Copyright||©||ALT + 0169||
-||Registered||®||ALT + 0174||
+|| *Symbol name* || *Symbol* || *Code* || *HTML Code* ||
+||Trademark||™||ALT + 0153||&trade;||
+||Copyright||©||ALT + 0169||&copy;||
+||Registered||®||ALT + 0174||&reg;||
+||Sum ||∑||ALT + 0174||&sum;||
