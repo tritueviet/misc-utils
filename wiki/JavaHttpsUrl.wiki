@@ -347,3 +347,13 @@ public class InstallCert {
 
 }
 }}}
+
+== Final notice ==
+If after these you get an error message of
+{{{
+HelloRequest followed by an unexpected  handshake message
+}}}
+then set the following system property:
+{{{
+System.setProperty( "sun.security.ssl.allowUnsafeRenegotiation", "true" );
+}}}
