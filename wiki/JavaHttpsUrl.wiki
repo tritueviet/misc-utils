@@ -349,7 +349,7 @@ public class InstallCert {
 }}}
 
 == Final notice ==
-If after these you get an error message of
+If after all these you get an error message of
 {{{
 HelloRequest followed by an unexpected  handshake message
 }}}
