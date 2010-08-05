@@ -52,3 +52,6 @@ try {
     e.printStackTrace();
 }
 }}}
+
+Alternatively we could've call
+{{{HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());}}}
