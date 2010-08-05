@@ -5,7 +5,7 @@
 || *Symbol name* || *Symbol* || *Code* || *HTML Code* ||
 ||Euro||€||ALT + 0128||&euro;||
 ||Trademark||™||ALT + 0153||&trade;||
-||Pound||¢||ALT + 0162||&cent;||
+||Cent||¢||ALT + 0162||&cent;||
 ||Pound||£||ALT + 0163||&pound;||
 ||Section||§||ALT + 0167||&sect;||
 ||Copyright||©||ALT + 0169||&copy;||
