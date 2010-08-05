@@ -53,5 +53,8 @@ try {
 }
 }}}
 
-Alternatively we could've call
-{{{HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());}}}
+Alternatively you can call
+{{{
+HttpsURLConnection.setDefaultSSLSocketFactory( sc.getSocketFactory() );
+}}}
+and after that you don't have to use the `setSSLSocketFactory()` method.
