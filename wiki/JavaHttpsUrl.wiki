@@ -167,7 +167,7 @@ System.setProperty( "javax.net.ssl.trustStorePassword", "somepass" );
 
 The certificate can be saved by web browsers, or with the `openssl` program.
 
-...or the following program does that for you:
+...or the following program does that for you (saves the certificate and adds it to the keystore; you might want to change the keystore that it uses):
 
 Source: http://blogs.sun.com/andreas/entry/no_more_unable_to_find
 
