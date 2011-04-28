@@ -93,7 +93,6 @@ You can call `XTrustProvider.install()` to turn off SSL check.
  * If you do not delete the provisions above, a recipient may use your
  * version of this file under either the License or the GPL.
  */
-package hu.nszfi.test;
 
 import java.security.AccessController;
 import java.security.InvalidAlgorithmParameterException;
