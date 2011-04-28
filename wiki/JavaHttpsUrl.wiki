@@ -154,7 +154,20 @@ public final class XTrustProvider extends java.security.Provider {
 
 
 ==Adding the certificate that is not accepted==
-As a 3rd solution you can get around this by adding the certificate that is not accepted to your keystore. This program does that for you.
+As a 3rd solution you can get around this by adding the certificate that is not accepted to your keystore.
+To do that, save the certificate of the server that you want to access. Import this certificate to a keystore with the following command:
+{{{
+keytool -importcert -file downloaded.cer -alias somealias -keystore keystore_file -storepass somepass
+}}}
+And tell your Java/socket factory to use this "trust store":
+{{{
+System.setProperty( "javax.net.ssl.trustStore", "keystore_file" );
+System.setProperty( "javax.net.ssl.trustStorePassword", "somepass" );
+}}}
+
+The certificate can be saved by web browsers, or with the `openssl` program.
+
+...or the following program does that for you:
 
 Source: http://blogs.sun.com/andreas/entry/no_more_unable_to_find
 
