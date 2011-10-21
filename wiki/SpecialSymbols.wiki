@@ -15,4 +15,14 @@
 ||Micro||µ||ALT + 0181||&micro;||
 ||Paragraph||¶||ALT + 0182||&para;||
 ||Multiplication||×||ALT + 0215||&times;||
-||Sum ||∑|| ||&sum;||
+||Sum||∑|| ||&sum;||
+||Left arrow||←|| ||&larr;||
+||Right arrow||→|| ||&rarr;||
+||Up arrow||↑|| ||&uarr;||
+||Down arrow||↓|| ||&darr;||
+||Left-right arrow||↔|| ||&harr;||
+||Up-down arrow||↕|| ||&#8597; &#8616;||
+|| ||▲|| ||&#9650;||
+|| ||▼|| ||&#9660;||
+|| ||►|| ||&#9658;||
+|| ||◄|| ||&#9668;||
