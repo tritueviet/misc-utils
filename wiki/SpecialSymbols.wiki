@@ -16,6 +16,7 @@
 ||Paragraph||¶||ALT + 0182||&para;||
 ||Multiplication||×||ALT + 0215||&times;||
 ||Sum||∑|| ||&sum;||
+||Delta||Δ|| ||&#916;||
 ||Left arrow||←|| ||&larr;||
 ||Right arrow||→|| ||&rarr;||
 ||Up arrow||↑|| ||&uarr;||
